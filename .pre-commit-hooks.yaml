@@ -1,0 +1,8 @@
+-   id: django-makemigrations
+    name: django makemigrations
+    description: Run django makemigrations for each commit.
+    entry: entrypoint.sh
+    language: script
+    types: [python]
+    pass_filenames: false
+    minimum_pre_commit_version: 0.14.0
